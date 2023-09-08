@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+  padding: 10px;
+  border-radius: 1em;
+  background-color: #2a2d46;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ff04d5;
+  border: solid black 0.5px;
+  color: rgb(47, 46, 54);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+#btn {
+  background-color: #fb0066;
+}
+
+button[type=button] {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #8f2727;
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  height: 70%;
+  outline: none;
+}
+
+button:active[type=button] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+body{
+        animation-iteration-count: infinite;
+  animation: myfirst 10s infinite;
+}
+@keyframes myfirst
+{
+0% { background: rgb(59, 49, 49); }
+25% {background: rgb(47, 40, 49);}
+50% {background: rgb(77, 59, 74);}
+100% {background: rgb(48, 61, 48);}
+}
+@keyframes myfirst
+{
+0% { background:  rgb(59, 49, 49); left:0px; top:0px; }
+25% { background: rgb(47, 40, 49); left:200px; top:0px; }
+50% { background: rgb(77, 59, 74); left:200px; top:200px; }
+75% { background: rgb(44, 30, 30); left:0px; top:200px; }
+100% { background: rgb(48, 61, 48); left:0px; top:0px; }
+}
